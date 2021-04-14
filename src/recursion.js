@@ -261,8 +261,8 @@ var replaceKeysInObj = function(obj, oldKey, newKey) {
     if (key === oldKey) {
       obj[newKey] = obj[key];
       delete obj[key];
-    }
-  }
+    };
+  };
   return obj;
 };
 
